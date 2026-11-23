@@ -2,8 +2,8 @@
 const fs = require("node:fs");
 const path = require("node:path");
 
-// "a" (0x61) answers coffee; the file holds this byte and no newline.
-const LETTER = 0x61;
+// "b" (0x62) answers tea; the file holds this byte and no newline.
+const LETTER = 0x62;
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 const outFile = path.join(outDir, "entry.txt");
